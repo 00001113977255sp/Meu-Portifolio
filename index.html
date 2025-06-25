@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+  <header class="container text-center">
+    <img src="img/avatar-perfil.jpeg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
+    <p class="lead">Olá, meu nome é yasmin cristina</p>
+    <h1>Eu estudo Programação</h1>
+    <p>Sou bom em programação, sei utilizar power point, excel, word, etc.
+      pretendo virar programador ou TI.
+      Pratico esportes como futebol e volei
+      Já criei alguns projetos no vscode, p5.js, github, etc.
+      venha ver minhas melhores criações.</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <p class="badge bg-secondary">Maquiagem</p>
+      <p class="badge bg-secondary">jogos</p>
+      <p class="badge bg-secondary">leitura</p>
+      <p class="badge bg-secondary">roupa</p>
+    </div>
+  </header>
+  <main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-1.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">utilizando o scratch para criar um jogo ee ping pong</h5>
+            <p class="card-text">Um jogo de ping pong muito interativo e divertido
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Venha
+              Ver</button>
+          </div>
+        </div>
+      </div>
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-2.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Utilizando p5.js para cirar um efeito muito legal</h5>
+            <p class="card-text">um projeto para representar o efeito monalisa</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Venha
+              Ver</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-3.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Utilizando o P5.js para criar um jogo de corrida
+            </h5>
+            <p class="card-text">Um jogo de corrida muito interativo e estilizado. Feito no p5.js
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Venha
+              Ver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Meu Portifólio: Um jogo de pin pong</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este é um jogo simples de ping pong desenvolvido com o scratch. Nele, dois jogadores controlam raquetes verticais e tentam rebater uma bolinha que se move pela tela. O objetivo é impedir que a bola passe pela borda da sua raquete enquanto tenta marcar pontos contra o oponente. </p>
+          <img src="img/projeto-1.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto ao vivo</a>
+          <a href="">Ver no github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Meu jogo: efeito monalisa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Você tera uma experiência visual interativa em que a personagem principal — geralmente inspirada na famosa pintura de Leonardo da Vinci — parece olhar diretamente para o jogador, independentemente de onde ele esteja na tela. Desenvolvido em p5.js</p>
+          <img src="img/projeto-2.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto no scratch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Mee Jogo: um jogo de corrida</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este é um jogo de corrida desenvolvido no p5.js, onde 4 jogaodres tem o objetivo de chegar o mais rapido
+            possivel na linha de chegada.
+            Com gráficos 2D simples e controles intuitivos, o jogo oferece uma experiência dinâmica e divertida.</p>
+          <img src="img/projeto-3.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto no p5.js</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/PedroCorrea1B" style="margin-right: 20px;">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido por Pedro Correa<i class="bi-patch-check-fill"
+        style="margin-left:  3px;"></i></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
